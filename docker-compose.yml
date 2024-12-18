@@ -1,0 +1,25 @@
+services:
+  postgres-db:
+    image: postgres:13
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: mydb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  nestjs-api:
+    build: .
+    environment:
+      DATABASE_URL: "postgresql://postgres:mysecretpassword@postgres-db:5432/mydb?schema=public"
+    depends_on:
+      - postgres-db
+    volumes:
+      - .:/app
+      - ./prisma:/app/prisma  # Garante que a pasta prisma será montada no container
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres-data:
