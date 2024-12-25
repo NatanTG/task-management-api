@@ -2,108 +2,35 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 
-<p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
+<p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
 <p align="center">
   <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
   <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
   <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
   <a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-  <a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://img.shields.io/coveralls/github/nestjs/nest/master.svg" alt="Coverage" /></a>
-  <a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/discord/520622812742811698.svg" alt="Discord" /></a>
-  <a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://img.shields.io/opencollective/backers/nest.svg" alt="Backers" /></a>
-  <a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://img.shields.io/opencollective/sponsors/nest.svg" alt="Sponsors" /></a>
+  <a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+  <a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+  <a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+  <a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
+  <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
 </p>
 
----
+## Description
 
-## 📘 Description
+Este é um projeto de **CRUD de tarefas** desenvolvido com o framework [NestJS](https://github.com/nestjs/nest), utilizando **Docker**, **Prisma ORM** e **PostgreSQL** como banco de dados.
 
-[Nest](https://github.com/nestjs/nest) is a progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications. It combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming) into a single, cohesive framework.
+A aplicação permite criar, ler, atualizar e excluir tarefas. O backend é eficiente e escalável, seguindo as boas práticas de desenvolvimento com NestJS. O banco de dados é gerido pelo Prisma ORM, que facilita a manipulação e sincronização dos dados com o PostgreSQL.
 
----
+## Features
 
-## 🚀 Project Setup and Usage
+- **CRUD de tarefas**: Aplique operações básicas em tarefas.
+- **Prisma ORM**: Facilitando a manipulação do banco de dados.
+- **PostgreSQL**: Armazenamento persistente de dados.
+- **Docker**: Facilita a execução do projeto em contêineres para desenvolvimento e produção.
+- **Testes**: Configuração para testes unitários e de integração.
 
-To get started with this project, follow the steps below:
-
-### Installation
-
-Install all required dependencies:
-
-```bash
-$ npm install
-```
-
-### Running the application
-
-Run the application in various modes:
-
-```bash
-# Development mode
-$ npm run start
-
-# Watch mode
-$ npm run start:dev
-
-# Production mode
-$ npm run start:prod
-```
-
-### Running Tests
-
-Ensure your application is tested thoroughly:
-
-```bash
-# Unit tests
-$ npm run test
-
-# End-to-end tests
-$ npm run test:e2e
-
-# Test coverage
-$ npm run test:cov
-```
-
-### Deployment
-
-When you're ready to deploy your NestJS application to production, follow these steps for optimal performance:
-
-```bash
-# Using Mau for AWS Deployment
-$ npm install -g mau
-$ mau deploy
-```
-
-For additional deployment options and detailed documentation, refer to the [NestJS Deployment Guide](https://docs.nestjs.com/deployment).
-
----
-
-## 📚 Resources
-
-Here are some helpful resources for working with NestJS:
-
-- [Official Documentation](https://docs.nestjs.com)
-- [Courses](https://courses.nestjs.com)
-- [Discord Community](https://discord.gg/G7Qnnhy)
-- [NestJS Devtools](https://devtools.nestjs.com)
-- [Jobs Board](https://jobs.nestjs.com)
-- [Enterprise Support](https://enterprise.nestjs.com)
-
----
-
-## 🛡 Support
-
-Nest is an MIT-licensed open-source project. Support the project by joining our [backers and sponsors](https://opencollective.com/nest).
-
----
-
-## ✍️ Author
-
-- **Kamil Myśliwiec** - [@kammysliwiec](https://twitter.com/kammysliwiec)
-
----
-
-## 📝 License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
