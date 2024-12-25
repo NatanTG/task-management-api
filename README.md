@@ -23,12 +23,23 @@
 
 ---
 
-## 🚀 Project Setup
+## 🚀 Project Setup and Usage
+
+To get started with this project, follow the steps below:
 
 ### Installation
 
+Install all required dependencies:
+
 ```bash
 $ npm install
+```
+
+### Running the application
+
+Run the application in various modes:
+
+```bash
 # Development mode
 $ npm run start
 
@@ -37,6 +48,13 @@ $ npm run start:dev
 
 # Production mode
 $ npm run start:prod
+```
+
+### Running Tests
+
+Ensure your application is tested thoroughly:
+
+```bash
 # Unit tests
 $ npm run test
 
@@ -45,5 +63,47 @@ $ npm run test:e2e
 
 # Test coverage
 $ npm run test:cov
+```
+
+### Deployment
+
+When you're ready to deploy your NestJS application to production, follow these steps for optimal performance:
+
+```bash
+# Using Mau for AWS Deployment
 $ npm install -g mau
 $ mau deploy
+```
+
+For additional deployment options and detailed documentation, refer to the [NestJS Deployment Guide](https://docs.nestjs.com/deployment).
+
+---
+
+## 📚 Resources
+
+Here are some helpful resources for working with NestJS:
+
+- [Official Documentation](https://docs.nestjs.com)
+- [Courses](https://courses.nestjs.com)
+- [Discord Community](https://discord.gg/G7Qnnhy)
+- [NestJS Devtools](https://devtools.nestjs.com)
+- [Jobs Board](https://jobs.nestjs.com)
+- [Enterprise Support](https://enterprise.nestjs.com)
+
+---
+
+## 🛡 Support
+
+Nest is an MIT-licensed open-source project. Support the project by joining our [backers and sponsors](https://opencollective.com/nest).
+
+---
+
+## ✍️ Author
+
+- **Kamil Myśliwiec** - [@kammysliwiec](https://twitter.com/kammysliwiec)
+
+---
+
+## 📝 License
+
+Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
